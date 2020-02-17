@@ -1,0 +1,2 @@
+# xTeeFieAndmed
+xTeeFieAndmed is a WSDL Java web service that processes a request which contains a national identification number(isikukood) of a person. The response looks for a match for the request(isikukood) in the data file(src/main/resources/fie.xml). Given that the match has been found the Java class PortImpl(src\main\java\eu\x_road\emta_v6\PortImpl.java) generates a response with the data in the fie.xml file. The project is built on and manged by Maven.
