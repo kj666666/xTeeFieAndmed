@@ -33,6 +33,7 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
+
 		<!-- apache cxf jax-ws 3.2.0 -->
 
 		<dependency>
@@ -87,14 +88,6 @@
 		<finalName>xTeeFieAndmed</finalName>
 
 		<plugins>
-
-			<plugin>
-				<artifactId>maven-war-plugin</artifactId>
-				<configuration>
-					<warSourceDirectory>src/main/webapp</warSourceDirectory>
-					<failOnMissingWebXml>false</failOnMissingWebXml>
-				</configuration>
-			</plugin>
 
 			<!-- plugin 4- apache cxf codegen wsdl2java goal -->
 
